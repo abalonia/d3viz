@@ -1,0 +1,85 @@
+#body {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 18px;
+}
+
+line {
+  stroke: #0E0;
+  stroke-width: 1.5px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: #000000;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 12px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2.0px;
+}
+
+    @-webkit-keyframes pulse 
+    {       
+      0% {-webkit-transform: scale(0.5); opacity: .8;}
+      100% {-webkit-transform: scale(2); opacity: 0;}
+    }
+    
+    .pulse
+    {
+      /* Giving Animation Function */
+      -webkit-animation: pulse 2s linear infinite;
+    }
+    
+    .shadow {
+    -webkit-filter: drop-shadow( 0px 0px 5px black );
+            filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
+}
